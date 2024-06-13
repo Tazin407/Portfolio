@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tazin's Portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.2/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://kit.fontawesome.com/99394fa4c1.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+
+    <header>
+        <nav class="p-5 px-20 flex items-center justify-between" id="home" style="background-color: #F1F8E8 ;">
+            <div class="flex items-center gap-3">
+                    <i class="fa-solid fa-user text-3xl"></i>
+                <h1 class="font-semibold text-2xl" >Tazin Tasnim</h1>
+            </div>
+
+            <div>
+                <ul class="flex flex-wrap gap-7 items-center text-xl font-italic font-medium">
+                    <li><a href="#home">Home</a> </li>
+                    <li><a href="#skillset">Skillset</a> </li>
+                    <li><a href="#projects">Projects</a> </li>
+                    <li><a href="">Contact Me</a></li>
+                </ul>
+            </div>
+        </nav>
+
+        <!-- Here starts the banner part -->
+         <div class="py-20 flex justify-between items-center"  style="background-color:#D8EFD3;">
+            <div class="my-20 rounded-lg " style="background-color: #F1F8E8 ;">
+                <ul class="">
+                    <li><i class="text-3xl m-3 my-3 fa-brands fa-linkedin"></i></li>
+                    <li><i class="text-3xl m-3 my-3 fa-brands fa-github"></i></li>
+                    <li><i class="text-3xl m-3 my-3 fa-brands fa-facebook"></i></li>
+                    <li><i class="text-3xl m-3 my-3 fa-brands fa-discord"></i></li>
+                </ul>
+            </div>
+            <div class=" items-center text-center mx-20">
+                <h1 class="font-bold text-6xl" >Hello. I am Tazin Tasnim</h1>
+                <p class=" my-10 " >A backend focused web developer having moderate knowledge about tailwind and javascript. A fast learner who loves to work with logics and open for new challenges.  </p>
+                <button class="rounded-lg p-3 self-center font-bold text-xl" style="background-color: #55AD9B;" >Download Resume</button>
+            </div>
+         </div>
+    </header>
+
+    <main>
+<!-- skillset part -->
+        <div id="skillset" class="p-20" style="background-color: #F1F8E8 ;" >
+            <h1 class="font-bold text-4xl text-center " >My Skillset</h1>
+
+            <div class="my-5">
+                <h1 class="text-xl my-3" >Languages-</h1>
+                <ul class="flex gap-3 flex-wrap">
+                    <li><button style="background-color: #95D2B3;" class="rounded-lg  p-3 text-2xl " disabled >Python</button></li>
+                    <li><button style="background-color: #95D2B3;" class="rounded-lg  p-3 text-2xl " disabled >C</button></li>
+                    <li><button style="background-color: #95D2B3;" class="rounded-lg  p-3 text-2xl " disabled >C++</button></li>
+                    <li><button style="background-color: #95D2B3;" class="rounded-lg  p-3 text-2xl " disabled >Javascript</button></li>
+                </ul>
+                
+            </div>
+            <div class="my-5">
+                <h1 class="text-xl my-3">Frameworks-</h1>
+                <ul class="flex gap-3 flex-wrap">
+                    <li><button class="rounded-lg p-3 text-2xl" style="background-color: #95D2B3;" disabled >Django</button></li>
+                    <li><button class="rounded-lg p-3 text-2xl" style="background-color: #95D2B3;" disabled >DRF</button></li>
+                </ul>
+            </div>
+
+            <div class="my-5">
+                <h1 class="text-xl my-3">Frontend Technology-</h1>
+                <ul class="flex gap-3 flex-wrap">
+                    <li><button class="rounded-lg p-3 text-2xl" style="background-color: #95D2B3;" disabled >HTML</button></li>
+                    <li><button class="rounded-lg p-3 text-2xl" style="background-color: #95D2B3;" disabled >CSS</button></li>
+                    <li><button class="rounded-lg p-3 text-2xl" style="background-color: #95D2B3;" disabled >Javascript</button></li>
+                    <li><button class="rounded-lg p-3 text-2xl" style="background-color: #95D2B3;" disabled >Bootstrap</button></li>
+                    <li><button class="rounded-lg p-3 text-2xl" style="background-color: #95D2B3;" disabled >Tailwind</button></li>
+                    <li><button class="rounded-lg p-3 text-2xl" style="background-color: #95D2B3;" disabled >DaisyUi</button></li>
+                </ul>
+            </div>
+
+        </div>
+
+        <div id="projects" class="p-20">
+
+            <h1 class="font-bold text-4xl text-center my-3" >My Projects</h1>
+           
+            <div class="flex justify-start my-10" >
+                <div class="card md:w-4/6  shadow-xl  " style="background-color: #F1F8E8 ;">
+                    <div class="card-body">
+                      <h2 class=" font-bold text-2xl " >Oasis Archives</h2>
+                      <p class="my-5">A library website where books can be borrowed, reviewed and added to wishlist to borrow later. It's created with Django Rest Framework at the backend and Provides authentication system and easy CRUD operation.</p>
+                      <div class="card-actions justify-end">
+                        <button class="rounded-lg p-4 text-white font-semibold" style="background-color: #55AD9B;">Click here for more details</button>
+                      </div>
+                    </div>
+                  </div>
+            </div>
+
+
+            <div class="flex justify-end my-10" >
+                <div class="card md:w-4/6  shadow-xl  " style="background-color: #F1F8E8 ;">
+                    <div class="card-body">
+                      <h2 class=" font-bold text-2xl " >Astro Nexus</h2>
+                      <p class="my-5">A platform to share articles about space and spaceships and to get the news of the latest space adventure in a simple way. For the people who are interested in astro physics , this would be a great platform </p>
+                      <div class="card-actions justify-end">
+                        <button class="rounded-lg p-4 text-white font-semibold" style="background-color: #55AD9B;">Click here for more details</button>
+                      </div>
+                    </div>
+                  </div>
+            </div>
+
+            
+
+        </div>
+
+    </main>
+
+    <footer style="background-color: #55AD9B;" >
+
+        <h1 class="text-2xl text-center m-10" >Contact me</h1>
+        <div  > 
+
+
+            <form class="max-w-sm mx-auto my-9">
+                <div>
+                    <label for="small-input" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Drop Your Name</label>
+                    <input type="text" id="small-input" class="block w-full p-2 text-gray-900 border border-gray-300 rounded-lg bg-gray-50 text-xs focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500">
+                </div>
+                <div class="mb-5">
+                    <label for="base-input" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Drop Email Address</label>
+                    <input type="text" id="base-input" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500">
+                </div>
+                <div class="mb-5">
+                    <label for="large-input" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Drop a Messege</label>
+                    <input type="text" id="large-input" class="block w-full p-4 text-gray-900 border border-gray-300 rounded-lg bg-gray-50 text-base focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500">
+                </div>
+                
+                <button class="p-3 text-semibold rounded-lg" style="background-color: #F1F8E8 ;" >Submit</button>
+              </form>
+              
+
+                <ul class=" flex justify-center px-auto">
+                    <li><i class="text-3xl m-3 my-3 fa-brands fa-linkedin"></i></li>
+                    <li><i class="text-3xl m-3 my-3 fa-regular fa-envelope"></i></li>
+                    <li><i class="text-3xl m-3 my-3 fa-brands fa-github"></i></li>
+                    <li><i class="text-3xl m-3 my-3 fa-brands fa-facebook"></i></li>
+                    <li><i class="text-3xl m-3 my-3 fa-brands fa-discord"></i></li>
+                    <li><i class="text-3xl m-3 my-3 fa-brands fa-telegram"></i></li>
+                </ul>
+
+        </div>
+
+    </footer>
+    
+</body>
+</html>
